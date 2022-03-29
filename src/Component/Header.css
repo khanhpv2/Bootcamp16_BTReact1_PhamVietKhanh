@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.text-color-black {
+    color: black;
+}
+.text-color-white {
+    color: white;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.icon-tivi {
+    background-color: rgba(33,40,50,.2) !important;
+    border-radius: 100%;
+    /* background-color: red; */
+    padding: 5px 10px;
+    font-weight: 400;
+    display: inline-block;
+    opacity: 0.7;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.font-size-24 {
+    font-size: 24px;
+}
+.introduce-content {
+    /* margin: 48px; */
+    padding: 100px;
+    margin-top: 10px;
+}
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+}
+.card-position-rl {
+    position: relative;
+}
+
+.card-position-ab {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content-p {
+     padding: 0 20px;
+} 
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+.display-5 {
+    font-size: 3rem;
+}
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+.btn-back:hover{
+    color: rgba(33,40,50,.5);
+    background-color: rgba(33,40,50,.1);
+    border-color: transparent;
+    padding: 5px;
+}
+/* .ml-auto {
+    margin-left: auto !important;
+}
+.mr-autp {
+    margin-right: auto !important;
+} */
